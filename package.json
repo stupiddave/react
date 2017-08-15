@@ -1,9 +1,11 @@
 {
-  "name": "react",
+  "name": "react-stuff",
   "version": "1.0.0",
   "description": "React play-about",
   "main": "index.js",
   "scripts": {
+    "compile": "webpack",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,10 @@
     "babel-loader": "^7.1.1",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^3.5.4"
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.4",
+    "webpack-dev-middleware": "^1.12.0"
   }
 }
